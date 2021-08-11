@@ -22,9 +22,6 @@ body {
 
 
 .main-hero-image {
-    height: 80vh;
-    width: 100%;
-    max-width: 100%;
     background: url('../images/main-hero-image.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -33,9 +30,13 @@ body {
 }  
 
 
+
+
 .opening-paragraph {
     color: #fff;
 }
+
+
 
 .card { 
 background-color: #0dc00d;  
@@ -46,9 +47,9 @@ color: #fff;
     animation:blinkingText 1.2s infinite;
     font-size: 50px;   
     margin-left: 25%;
-    
-    
-}
+    margin-top: 20%;
+    }
+
 @keyframes blinkingText{
     0%{     color: #fff;    }
     49%{    color: #fff; }
@@ -67,6 +68,15 @@ color: #fff;
     -o-background-size: cover;
     background-size: cover;
 }
+
+.btn-primary {
+    margin-top: 13%;
+    margin-left: 44%;
+    background-color: #0dc00d; 
+}
+
+div#map {min-height: 360px;}
+
 
 .footer {
     

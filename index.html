@@ -40,6 +40,8 @@
   
      <!-- container taken from bootstrap--> 
  
+
+     
   
    <!-- cards taken from bootstrap--> 
    <div class="card-group">
@@ -68,26 +70,25 @@
       <div class="card-body">
         <h5 class="card-title">My top 15 players of the tournament</h5>
         <p class="card-text">
-         1. Leonardo Spinazzola (Italy) 
-         2. Leonardo Bonucci (Italy) 
-         3. Raheem Sterling (England) 
-         4. Jordan Pickford (England) 
-         5. Romelu Lukaku (Belgium) 
-         6. Pedri (Spain) 
-         7. Kevin de Bruyne (Belgium)
-         8. Luke Shaw (England) 
-         9. Jorginho (Italy) 
-         10. Cristiano Ronaldo (Portugal)
-         11. Federico Chiesa (Italy) 
-         12. Gianluigi Donnarumma (Italy) 
-         13. Giorgio Chiellini (Italy) 
-         14. Joakim Maehle (Denmark)
-         15. John Stones (England)
-         16. Granit Xhaka (Switzerland)
-         17. Marco Verratti (Italy)
-         18. Patrik Schick (Czech Republic)
-         19. Paul Pogba (France) 
-         20. Andreas Christensen (Denmark) </p>
+         <ol>
+         <li> Leonardo Spinazzola (Italy) </li>
+         <li> Leonardo Bonucci (Italy) </li>
+         <li> Raheem Sterling (England) </li>
+         <li> Jordan Pickford (England) </li>
+         <li> Romelu Lukaku (Belgium) </li>
+         <li> Pedri (Spain) </li> 
+         <li> Kevin de Bruyne (Belgium) </li>
+         <li> Luke Shaw (England) </li> 
+         <li> Jorginho (Italy) </li>
+         <li> Cristiano Ronaldo (Portugal)</li>
+         <li> Federico Chiesa (Italy) </li>
+         <li> Gianluigi Donnarumma (Italy) </li>
+         <li> Giorgio Chiellini (Italy) </li>
+         <li> Joakim Maehle (Denmark) </li>
+         <li> John Stones (England) </li>
+        
+        </ol> 
+      </p>
       </div>
     </div>
     <div class="card">
@@ -115,11 +116,19 @@
  <!-- cards taken from bootstrap--> 
    
  <div class="container-fluid">
-    <div class="quiz-image"><span class="blinking">Play The Ultimate Football Quiz</span></div>
-     </div>
+    <div class="quiz-image"><span class="blinking">Play The Ultimate Football Quiz</span>
+      <button type="button" class="btn btn-primary btn-lg">LET'S PLAY</button>
+   </div>
+
+
+</div>
  
     
-    <!-- footer taken from W3schools.com -->
+   
+   <div id="map"></div>
+    
+    
+     <!-- footer taken from W3schools.com -->
     <!-- used Font Awesome-->
     
     <div class="footer">
@@ -154,8 +163,6 @@
        </div>
      </div>
     
-   
-       
           
       
     <!-- used Font Awesome-->
@@ -171,5 +178,16 @@
        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
        crossorigin="anonymous"
        ></script>
+      var Api key AIzaSyAQRmawg4CbJAXXHEvmS10SOob3jox5dMQ
+       <script> 
+       function initMap () {
+          var map = new google.maps.Map(document.getElementById("map"), {
+             zoom: 3, 
+             center: { 
+                lat: 46.619261,
+                lng: -33.134766
+          });
+         }
+         
  </body>
 </html>
