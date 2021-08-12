@@ -75,6 +75,14 @@ color: #fff;
     background-color: #0dc00d; 
 }
 
+
+.location-header {
+ color: #fff;
+}
+
+
+
+
 div#map {min-height: 360px;}
 
 

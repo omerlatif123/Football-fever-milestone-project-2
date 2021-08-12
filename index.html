@@ -119,19 +119,22 @@
     <div class="quiz-image"><span class="blinking">Play The Ultimate Football Quiz</span>
       <button type="button" class="btn btn-primary btn-lg">LET'S PLAY</button>
    </div>
+ </div>
 
 
-</div>
  
-    
-   
+ <div class="container">
+   <h3 class="location-header">LOCATION</h3>
    <div id="map"></div>
+ </div> 
+   
+   
     
     
      <!-- footer taken from W3schools.com -->
     <!-- used Font Awesome-->
     
-    <div class="footer">
+    <footer class="footer">
        <div class="col-sm-6 col-xs">
           <ul class="list-inline social-links">
              <li class="list-inline-item">
@@ -161,7 +164,7 @@
              </li>
           </ul>
        </div>
-     </div>
+     </footer>
     
           
       
@@ -178,16 +181,40 @@
        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
        crossorigin="anonymous"
        ></script>
-      var Api key AIzaSyAQRmawg4CbJAXXHEvmS10SOob3jox5dMQ
-       <script> 
+      
+    
+      <script>
        function initMap () {
           var map = new google.maps.Map(document.getElementById("map"), {
              zoom: 3, 
              center: { 
                 lat: 46.619261,
                 lng: -33.134766
+             }
           });
-         }
          
+       var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+       var locations = [
+           { lat: 40.785091, lng: -73.968285}
+       ]; 
+
+       var markers = locations.map(function (location, i) {
+         return new google.maps.Marker ({
+          position: location, 
+          label: labels[i % labels.length]
+       });
+       
+      });
+      
+      var markerCluster = new MarkerClusterer(map, markers,
+    {imagePath:
+      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+  });
+      
+      } 
+      </script> 
+         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQRmawg4CbJAXXHEvmS10SOob3jox5dMQ&callback=initMap&libraries=&v=weekly"></script>
+         <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
  </body>
 </html>
