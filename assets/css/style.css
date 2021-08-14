@@ -33,7 +33,10 @@ body {
 
 
 .opening-paragraph {
-    color: #fff;
+    color: #fff; 
+    margin-left: 3%;
+    margin-right: 3%;
+
 }
 
 
@@ -70,7 +73,7 @@ color: #fff;
 }
 
 .btn-primary {
-    margin-top: 13%;
+    margin-top: 10%;
     margin-left: 44%;
     background-color: #0dc00d; 
 }
@@ -78,6 +81,7 @@ color: #fff;
 
 .location-header {
  color: #fff;
+ margin-top: 5%;
 }
 
 
@@ -112,3 +116,56 @@ div#map {min-height: 360px;}
     padding: 2%;
     color: #ffff;
 }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+iroot {
+    background-color: rgb(29, 26, 26); 
+}  
+
+.{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    font-size: 62.5%;
+    font-family: 'Nova Square', cursive;
+} 
+
+.quiz-header {
+    font-size: 40%;
+    color:  #0dc00d;
+
+} 
+
+
+.quiz-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    max-width: fit-content;
+}  
+
+
+.quiz-btn {
+    font-size: 2.4 rem;
+
+}  
+
+.quiz-btn:hover {
+    cursor: pointer;
+    box-shadow: royalblue;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.quiz-btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none; 
+    transform: none; 
+}
+
+
