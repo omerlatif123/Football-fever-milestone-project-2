@@ -1,0 +1,57 @@
+body {
+
+    background-color: green;
+}  
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(18, 93, 255);
+    font-size: 3rem;
+    min-height: 40%;
+} 
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: rgb(7, 248, 112); 
+
+}  
+
+.correct {
+    background: springgreen;  
+}  
+
+.incorrect {
+    background: tomato;
+}  
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}    
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}  
+
+#progressbar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(7, 248, 112); 
+    margin-top: 2rem; 
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(7, 248, 112);
+    width: 0%;
+}
