@@ -1,0 +1,66 @@
+
+
+/* End Page CSS */
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+#username {
+    margin-bottom: 1rem;
+    width: 80%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+}
+
+#saveScoreBtn {
+    margin-bottom: 10%; 
+    color: red;
+    background-color: rosybrown;
+    margin-right: 25%;
+}
+
+.fa-home {
+    
+    font-size: 2rem;
+    color: rgb(28, 26, 26)
+    
+} 
+
+body {
+   background-color: rgb(11, 224, 75);
+}  
+
+h1 {
+    margin-left: 45%;
+}   
+
+.btn {
+margin-left: 27%;
+font-size: 1.5rem;
+}
+
+
+/* End Page CSS */
