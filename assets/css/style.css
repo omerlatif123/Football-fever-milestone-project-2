@@ -1,24 +1,18 @@
 body {
-    background-color: #0dc00d;
+    background-color: #85d43a;
   
 }
 
 
 .navbar {
-    width: 100%;  
-    height: 50%; 
-    border: #fff;
-}
-
-
-.main-header {
-    margin-left: 33%;
-    color: #ffff ;
-    
-
+    width: 100%; 
+    background-color: rgb(96, 150, 100);
+  
 }  
 
-
+.nav-link {
+    color: #fff;
+}
 
 
 .main-hero-image {

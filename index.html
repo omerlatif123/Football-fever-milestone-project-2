@@ -13,11 +13,23 @@
    </head>
 <body>
     <!-- Navbar-->
-    <nav-header>
-       <nav class="navbar navbar-light" style="background-color: #0dc00d;">
-          <div class="main-header"><h1>Football Fever</h1></div>
-        </nav>
-    </nav-header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-white">
+      <div class="container-fluid">
+        <h1 class="navbar-brand" href="#">FOOTBALL FEVER</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="" href>Home</a>
+            <a class="nav-link" href="index.html#opening">Meet the Teams</a>
+            <a class="nav-link" href="index.html#card-group">Facts</a> 
+            <a class="nav-link" href="index.html#quiz-image">Quiz</a> 
+            <a class="nav-link" href="index.html#location">Locations</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <!-- Navbar--> 
 
        <!-- container taken from bootstrap--> 
@@ -196,7 +208,12 @@
        var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
        var locations = [
-           { lat: 40.785091, lng: -73.968285}
+           { lat: 48.218807, lng: -11.624372},
+           { lat: 40.785091, lng: -73.968285},
+           { lat: 40.785091, lng: -73.968285},
+           { lat: 40.785091, lng: -73.968285},
+           { lat: 40.785091, lng: -73.968285},
+           
        ]; 
 
        var markers = locations.map(function (location, i) {
@@ -208,13 +225,15 @@
       });
       
       var markerCluster = new MarkerClusterer(map, markers,
-    {imagePath:
-      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    {imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
+
       
       } 
       </script> 
          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQRmawg4CbJAXXHEvmS10SOob3jox5dMQ&callback=initMap&libraries=&v=weekly"></script>
          <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
- </body>
+         <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+         <script src="assets/js/markerclusterer_compiled.js"></script>
+      </body>
 </html>
