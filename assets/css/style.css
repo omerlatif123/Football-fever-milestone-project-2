@@ -23,14 +23,18 @@ body {
     background-size: cover;
 }  
 
-
+.col-lg-12 {
+    max-width: 65%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
 
 
 .opening-paragraph {
     color: #fff; 
     margin-left: 3%;
     margin-right: 3%;
-
+    
 }
 
 
@@ -38,6 +42,10 @@ body {
 .card { 
 background-color: #0dc00d;  
 color: #fff;
+border: 12px solid rgb(45, 49, 45);
+border-radius: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
 }
 
 .blinking{
@@ -64,6 +72,7 @@ color: #fff;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-top: 5%;
 }
 
 .btn-primary {
@@ -73,9 +82,17 @@ color: #fff;
 }
 
 
+.container {
+    border: 12px solid #fff;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .location-header {
- color: #fff;
+ color: rgb(14, 13, 13);
  margin-top: 5%;
+ margin-bottom: 1.5rem;
 }
 
 
@@ -89,15 +106,16 @@ div#map {min-height: 360px;}
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #0dc00d;
+    background-color: rgb(96, 150, 100);
     color: white;
     text-align: center;
+    line-height: 1rem;
  } 
 
  
  .social-links {
     text-align: center;
-    padding-left: 72%;
+  
 }
 
 .social-links li {
@@ -106,11 +124,21 @@ div#map {min-height: 360px;}
 
  .social-links i {
     font-size: 190%;
-    margin: 1%;
-    padding: 2%;
+
+    padding: 1%;
     color: #ffff;
 }
+   
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+} 
 
+element.style {
+    margin-bottom: 20%
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');

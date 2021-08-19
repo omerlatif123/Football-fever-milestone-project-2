@@ -21,7 +21,7 @@ let questions = [
     }, 
     
     { 
-        question: "Who scored the fatest goal in European Championship history", 
+        question: "Who scored the fastest goal in European Championship history", 
         choice1: 'Dmitri Kirichenko', 
         choice2: 'Robert Lewandowski',
         choice3: 'Luke Shaw', 
@@ -59,7 +59,7 @@ let questions = [
     ]  
     
 
-const SCORE_POINTS = 100
+const SCORE_POINTS = 10
 const MAX_QUESTIONS = 5
 
 startGame = () => {
