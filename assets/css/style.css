@@ -1,8 +1,15 @@
 body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+body {
     background-color: #85d43a;
   
 }
 
+
+/* Navbar */
 
 .navbar {
     width: 100%; 
@@ -21,6 +28,10 @@ body {
 .navbar-toggler {
     color: #fff;
 }
+
+/* Navbar */
+
+/* Hero image for home page from unsplash.com and container taken from Bootstrap */
 
 .main-hero-image {
     background: url('../images/main-hero-image.jpg') no-repeat center center;
@@ -44,8 +55,9 @@ body {
     
 }
 
+/* Hero image for home page from unsplash.com and container taken from Bootstrap */
 
-
+/* card container taken from Bootstrap */
 .card { 
 background-color: #0dc00d;  
 color: #fff;
@@ -54,7 +66,9 @@ border-radius: 10px;
 margin-top: 15px;
 margin-bottom: 15px;
 }
+/* card container taken from Bootstrap */
 
+/* flashing header for quiz image taken from https://html-online.com/articles/?s= */
 .blinking{
     animation:blinkingText 1.2s infinite;
     font-size: 50px;   
@@ -70,6 +84,9 @@ margin-bottom: 15px;
     100%{   color: #fff;    }
 }
 
+/* button taken from Bootstrap */
+/* flashing header for quiz image taken from https://html-online.com/articles/?s= */
+/* Image taken from unsplash */
 .quiz-image {
     height: 80vh;
     width: 100%;
@@ -86,9 +103,49 @@ margin-bottom: 15px;
     margin-top: 10%;
     margin-left: 44%;
     background-color: #0dc00d; 
+} 
+
+.quiz-header {
+    font-size: 40%;
+    color:  #0dc00d;
+
+} 
+
+
+.quiz-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    max-width: fit-content;
+}  
+
+
+.quiz-btn {
+    font-size: 2.4 rem;
+
+}  
+
+.quiz-btn:hover {
+    cursor: pointer;
+    box-shadow: royalblue;
+    transition: transform 150ms;
+    transform: scale(1.03);
 }
 
+.quiz-btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none; 
+    transform: none; 
+}
 
+/* flashing header for quiz image taken from https://html-online.com/articles/?s= */
+/* Image taken from unsplash */
+/* button taken from Bootstrap */
+
+
+/* container taken from Bootstrap */
 .container {
     border: 12px solid #fff;
     border-radius: 10px;
@@ -103,10 +160,11 @@ margin-bottom: 15px;
 }
 
 
-
-
 div#map {min-height: 360px;}
 
+/* container taken from Bootstrap */
+
+/* footer*/
 
 .footer {
     
@@ -147,55 +205,9 @@ element.style {
     margin-bottom: 20%
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-
-iroot {
-    background-color: rgb(29, 26, 26); 
-}  
+/* footer*/
 
 
-.{
-    box-sizing: border-box;
-    margin: 0; 
-    padding: 0; 
-    font-size: 62.5%;
-    font-family: 'Nova Square', cursive;
-} 
 
-.quiz-header {
-    font-size: 40%;
-    color:  #0dc00d;
-
-} 
-
-
-.quiz-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    max-width: fit-content;
-}  
-
-
-.quiz-btn {
-    font-size: 2.4 rem;
-
-}  
-
-.quiz-btn:hover {
-    cursor: pointer;
-    box-shadow: royalblue;
-    transition: transform 150ms;
-    transform: scale(1.03);
-}
-
-.quiz-btn[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow: none; 
-    transform: none; 
-}
 
 

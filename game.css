@@ -1,8 +1,8 @@
-
+/* Navbar */
 .navbar {
     width: 100%; 
     background-color: rgb(96, 150, 100);
-    height: 20%;
+   
 }  
 
 .nav-link {
@@ -18,13 +18,13 @@
     color: #fff;
 }
 
-
+/* Navbar */
 body {
 
     background-color:  #85d43a;;
 }  
 
-
+/* quiz */
 
 .choice-container {
     display: flex;
@@ -32,10 +32,11 @@ body {
     width: 100%;
     border-radius: 4px;
     background: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
     min-height: 40%;
 } 
 
+/* quiz answer containers */
 .choice-container:hover {
     cursor: pointer;
     box-shadow: rgb(7, 248, 112); 
@@ -50,6 +51,8 @@ body {
     background: tomato;
 }  
 
+/* quiz answer containers */
+
 #hud {
     display: flex;
     justify-content: space-between;
@@ -57,17 +60,17 @@ body {
 
 .hud-prefix {
     text-align: center;
-    font-size: 2.5rem; 
+    font-size: 2rem; 
     margin-top: 10%;
 }
 
 .hud-main-text {
     text-align: center;
-    
+
 }  
 
 #progressbar {
-    width: 20rem;
+   
     height: 3rem;
     border: 0.2rem solid rgb(238, 245, 241); 
     margin-top: 5%; 
@@ -86,38 +89,4 @@ body {
     margin-top: 15%;
 }
 
-.footer {
-    
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(96, 150, 100);
-    color: white;
-    text-align: center;
-    line-height: 1rem;
- } 
-
- 
- .social-links {
-    text-align: center;
-  
-}
-
-.social-links li {
-    display: inline;
-}
-
- .social-links i {
-    font-size: 190%;
-
-    padding: 1%;
-    color: #ffff;
-}
-   
-ol,
-ul,
-dl {
-  margin-top: 0;
-  margin-bottom: 0;
-} 
-
+/* quiz */

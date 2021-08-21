@@ -1,6 +1,33 @@
 
 
 /* End Page CSS */
+/* Navbar */
+.navbar {
+    width: 100%; 
+    background-color: rgb(96, 150, 100);
+   
+}  
+
+.nav-link {
+    color: #fff;
+    size: 2rem;
+}
+
+.navbar-brand {
+   color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+
+body {
+
+    background-color:  #85d43a;;
+}  
+
+
 .end-form-container {
     width: 100%;
     display: flex;
@@ -30,7 +57,7 @@ input::placeholder {
 }
 
 #end-text {
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: #fff;
     text-align: center;
 }
@@ -45,22 +72,31 @@ input::placeholder {
 .fa-home {
     
     font-size: 2rem;
-    color: rgb(28, 26, 26)
+    color: rgb(34, 18, 18)
     
-} 
-
-body {
-   background-color: rgb(11, 224, 75);
-}  
-
-h1 {
-    margin-left: 45%;
-}   
+}     
 
 .btn {
 margin-left: 27%;
 font-size: 1.5rem;
+color: #fff;
+}  
+
+
+#finalScore {
+    margin-top: 5%;
+    font-size: 2rem;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    margin-bottom: 5%;
+} 
+
+#end-score {
+    margin-top: 20%;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
 }
 
-
+/* Navbar */
 /* End Page CSS */

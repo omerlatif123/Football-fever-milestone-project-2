@@ -292,37 +292,25 @@ In the original design, the quiz navbar link would only take you to the section 
 ### <strong>Features left to implement in the future</strong>
 
 
-allow visitor to provide feeback about the webpsite and on completion of feedback form recieve Email confirmation. Currently unable due to time constraints.   
+Allow visitor to provide feeback about the webpsite and on completion of feedback form recieve Email confirmation. Currently unable due to time constraints.   
 
-On the completion of quiz have a highscores page with names and scores of previous users.In the future will implement this to provide a better user experience.  
+Currently on completion of the quiz the fial score page allows you to type your name and press the save button, currently when save is pressed the visitor is redirected to the home page. In future have on completion of the quiz have a highscores page with names and scores of previous users.In the future will implement this to provide a better user experience.
 
 # Issues and bugs encountered
 
 As a developer I encountered various problems throughout which I have resolved or learned to work around. 
 
-<strong>Gitpod</strong>- One of the biggest issues I encountered was my own lack of understanding of my developer tools. While working on my project previously on Gitpod I would only git commit my messages assuming everything was being saved, how wrong I was. Its during my second mentor meeting that my mentor examined my code and commits to realise no messages had been saved. 
-I was incorrectly only git committing messages, but I had not used git add before, so the message was never registered correctly. 
-During my second mentor meeting because of my failure to register messages correctly, Gitpod had 79 unsaved changes after a failed attempt to save the page, I was advised to restart my project. I opened another Github repository and have been git adding, committing, and pushing my work correctly. 
-
-This was an issue for me as I had to restart my project and had wasted time, but it is something I have resolved with the help of my mentor and viewing and understanding the code institution videos clearer. 
-This has helped me develop good practises as a developer for future projects so every time I use Gitpod I always add and commit messages correctly and I git push, so I have a copy of my code on GitHub, had to reschedule a mentor meeting because no work had been pushed onto Github and Gtpod had stopped responding on the day of the meeting. Overcoming this challenge has made me more comfortable as a developer.
 
 <strong>Navbar menu toggler</strong>- When implementing a navbar menu toggle for when the page is viewed smaller devices the navbar I had already created would not allow me to implement the toggle. When adding the code for menu toggler to my existing code my headers on my navbar for larger screens would shift position and any padding applied would be lost. After researching these issues and asking fellow developers on slack that I discovered the solution. I had to completely restructure my navbar code and start over. The Navbar I have created now is a lot more responsive although slightly different my appearance to the previous navbar, changes to a hamburger toggle when web page is reduced in size. 
 
-<strong>Webpage responsiveness</strong>- When creating my webpage originally, I did not implement mobile first design approach, the Envirocabs webpage looked visually appealing on bigger screens but when reduced in size and when page responsiveness was tested on other devices the page layout would shift, creating inconsistencies in the design. Both images and text would go out of position or merge within each other. To address this issue further research was done into website breakpoints and responsive design. I was advised by my mentor during our meeting to grasp a better understanding of this area. Websites such as W3schools.com and others helped rectify the issue as it helped to create a better understanding of device responsiveness. For smaller devices, the standard breakpoint of small was not sufficient and therefore XS was applied. 
+<strong>Google map markers</strong>  when implementing Google map JS into my website I encountered various problems, intially I encountered error messages in the console which I rectified as it stated I need to provide my card details. This intially helped but the issue return trying to implement Google markers on to my map. A error message kept appearing in my console with the error refering to the markerclusterers code I had directly taken from the Google Api tutorial page. Even reviewing of Code institute lectures video again regarding maps implementation this did not help either. 
 
-<strong>Envirocab Logo</strong>- A bug was detected in the navigation bar, the Envirocab logo when clicked should have redirected the user back to the home page.  When applying code to the other headings on the navbar they became responsive. The other navbar headers were responsive and when clicked would redirect the user but the Envirocabs logo when clicked was not. 
-Both Slack and researching to resolve this issue took considerable amount of time but did not resolve the problem. Instead, I began using dev tools to look at existing websites and what techniques they had used to make their logos responsive when clicked. The AA website when viewing inspecting its code in dev tools, I realised how they had made their AA logo responsive when clicked redirected user back to the home page. I applied the same method do my open code without also copying theirs and it worked. 
-
-<strong>Fixed Header</strong>- Created a fixed header as discussed with my mentor, had issues with creating it as the navbar would disappear when amending its CSS position to fixed. Resolved issue when using dev tools, the hero images and other images position was set at relative, in dev tools I removed this position from the images and the footer became fixed. Now header is fixed in all pages and when scrolling down the page remains in place.  
-
-<strong>Hero images</strong>- issue with quality of free images online, replaced images with higher quality ones as on other devices images looked grainy and blurred.   
- 
-
-<strong>Overflow issues</strong>- when using website on any devices there was a gap being created so advise from students on slack to use unicorn revealer to work out where overflow is on the page, then I used dev tools to work out what was causing problem released some container margin-right and left were set at 15px when I corrected this to 0px for both, this resolved the issue and the overflow disappeared. 
+I even researched and asked fellow students on slack but this did not resolve the issue, I was told to create a seperate map.js file to store my code which previously wasin index.html. I have now created a Map.js file which I resolved this issue but this was not to the solution. Finally on further reserach and examing various websites I have restructured by maps.js file, which is now working without issue.
 
                                 
-<strong>Testimonial image</strong>  When reduceing the size of the device the image alongside the testimonal section in home page disappear but the container remains therefore showing a vacant blue box. This will be something to address in the future and visually isn't too distracting.
+<strong>Colour scheme</strong> This project I struggled to implement a strong colour shceme. Because of he theme of football I wanted to implement colours that will related to the topic (green and white). In relaity this was difficult just as finding the correct shade of green and not having too much green that it overwhelmed the page. After my second meeting with my mentor we discussed adding various shades of green to break the webiste down. This was implemented all across the website various shades have been added to break up the page. Even the colour for the quiz was kept to the same greens as the home page to keep the theme throughtout the website. Intially the quiz page was a bright blue and red but in discussion with my mentor realised this created seperation from the home page which was a completely diffrent colour. The colour scheme now keeps within the theme of football and is visually appealing. 
+
+<strong>Seperate files</strong>
 
 
 # Technologies Used
