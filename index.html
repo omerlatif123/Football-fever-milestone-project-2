@@ -21,16 +21,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-            <a class="nav-link" aria-current="" href>Home</a>
+            <a class="nav-link" aria-current="" href="index.html">Home</a>
             </li>
             <li class="nav-item active">
-            <a class="nav-link" href="#Meet the teams">Meet the Teams</a>
+            <a class="nav-link"  href="#Meet the teams">Meet the Teams</a>
             </li>
             <li class="nav-item active">
-            <a class="nav-link" href="#card">Facts</a> 
+            <a class="nav-link"   href="#card">Facts</a> 
             </li>
             <li class="nav-item active">
-            <a class="nav-link" href="#quiz-image">Quiz</a> 
+            <a class="nav-link" href="game.html">Quiz</a> 
           </li>
             <li class="nav-item active">
             <a class="nav-link" href="#location">Locations</a>
@@ -146,6 +146,7 @@
  
  <div class="container">
    <h3 class="location-header" id="location">LOCATION</h3>
+    <script src="/JS/map.js"></script>
    <div id="map"></div>
  </div> 
    
@@ -203,49 +204,14 @@
        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
        crossorigin="anonymous"
        ></script>
-      
-    
-      <script>
-       function initMap () {
-          var map = new google.maps.Map(document.getElementById("map"), {
-             zoom: 3, 
-             center: { 
-                lat: 46.619261,
-                lng: -33.134766
-             }
-          });
-         
-       var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
-       var locations = [
-           { lat: 48.218807, lng: -11.624372},
-           { lat: 40.785091, lng: -73.968285},
-           { lat: 40.785091, lng: -73.968285},
-           { lat: 40.785091, lng: -73.968285},
-           { lat: 40.785091, lng: -73.968285},
-           
-       ]; 
-
-       var markers = locations.map(function (location, i) {
-         return new google.maps.Marker ({
-          position: location, 
-          label: labels[i % labels.length]
-       });
-       
-      });
-      
-      var markerCluster = new MarkerClusterer(map, markers,
-    {imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-  });
-
-      
-      } 
-    </script> 
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQRmawg4CbJAXXHEvmS10SOob3jox5dMQ&callback=initMap&libraries=&v=weekly"></script>
+       <script async
+       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQRmawg4CbJAXXHEvmS10SOob3jox5dMQ&callback=initMap">
+   </script>
          <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
          <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
          <script src="assets/js/markerclusterer_compiled.js"></script>
-          
+        
         
       </body>
-</html>
+</html>  
+
