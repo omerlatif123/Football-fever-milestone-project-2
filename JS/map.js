@@ -61,9 +61,6 @@ function initMap() {
         zoom: 3
     };
 
-
-    
-
     //
     map = new google.maps.Map(document.getElementById('map'), centerPoint);
     infowindow = new google.maps.InfoWindow();
