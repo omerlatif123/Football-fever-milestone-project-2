@@ -1,10 +1,10 @@
 # Football-fever-milestone-project-2  
 
 
-<img src="assets/images/mockup-image.jpg">
+<img src="assets/images/foot-pic1.jpg">
 
 
-[View the live project here](https://)
+[View the live project here](https://omerlatif123.github.io/Football-fever-milestone-project-2/)
 
 # Index
 
@@ -16,7 +16,7 @@
 
  i. [Visitor goals](#Visitor-goals)
 
-ii. [Envirocabs goals](#Envirocabs-goals) 
+ii. [Developers goals](#Developers-goals) 
 
 </ul>
 
@@ -110,11 +110,11 @@ I want to create a interactive football themed website, after the Euro's this ye
 
 2)	I want to be able to access football facts and stats and learn more about the Euro's.
 
-    Instantly when entering the website the visitor will be provided football information. A table of the teams playing in the euro's will provided and further information will be provided about them underneath in Meet the teams section. the facts section will be split into three with information provided about the stadiums, highest goal scorers and best players (in my opinon). At the bottom of the webpage a googple map image will be provided with markers of locations.
+    Instantly when entering the website the visitor will be provided football information. A table of the teams playing in the euro's and further information will be provided them underneath in Meet the teams section. The facts section will be split into three with information provided about the stadiums, highest goal scorers and best players (in my opinon). 
 
 3)	I want to be able to have fun by playing the quiz, the quiz should be short and simple.
 
-     The quiz is simple and easy to understand, on entry four options will be provided if the answer is incorrect the answer will temporarly become red if its correct it will be green. The layout is basic witha score tally on the right hand side of the page and on the left side is a progress bar to enform the user on what question out of they 5 they are on. At the end of quiz you are given about to save score or play again. 
+     The quiz is simple and easy to understand, on entry four options will be provided if the answer is incorrect the answer will temporarly become red if its correct it will be green. The layout is basic witha score tally on the right hand side of the page and on the left side is a progress bar to inform the user on what question out of they 5 they are on. At the end of quiz you are given about to save score or play again. 
 
 4)	I want to be able to follow Football Fever on various media platforms.  
     
@@ -182,20 +182,8 @@ Various shades of the main colours are used throughtout the website, keeping are
  #### Colours used in website background and text.
 
 - ![#fff](https://via.placeholder.com/15/fff/000000?text=+) **White** (#fff),
-- ![#007bff](https://via.placeholder.com/15/007bff/000000?text=+) **Blue** (#007bff),
-- ![##04AA6D](https://via.placeholder.com/15/04AA6D/000000?text=+) **Green** (#04AA6D),
-
- #### Colours used in grids, containers and other sections. 
-
-![colour-1](assets/readme-files/colour-1.png)
-![colour-2](assets/readme-files/colour-2.png)
-![colour-3](assets/readme-files/colour-3.png)
-![colour-4](assets/readme-files/colour-4.png)
-![colour-5](assets/readme-files/colour-5.png)
-![colour-6](assets/readme-files/colour-6.png)
-![colour-7](assets/readme-files/colour-7.png)
-![colour-8](assets/readme-files/colour-8.png)
-![colour-9](assets/readme-files/colour-9.png)
+- ![#85d43a](https://via.placeholder.com/15/04AA6D/000000?text=+) **Green** (#85d43a;),
+![rgb(96, 150, 100](https://via.placeholder.com/15/04AA6D/000000?text=+) ** Darker Green** (rgb(96, 150, 100),
 
 
 #### Typography
@@ -236,9 +224,6 @@ The information container provides information about the 24 teams playing in the
 
 A image underneath the facts section of a football pitch helps break down the website but also draws the visitor's intetnion. In addition a flashing header with the title Ultimate Football Quiz flashes to draw the visitor's attention. Undear neath the flashing header is a button with let's play, once clicked the button will redirect the visitor to the quiz section of the website.
 
-<strong>Map with markers</strong>
-
- At the bottom of the webapge a google map will display various markers that provide information to the visitor where games are being held.
 
 ### <strong>Quiz</strong>
 
@@ -281,13 +266,14 @@ On smaller screens, the navigation bar collapses into a toggler icon. Clicking i
 
 - Footer- The center of the footer contains social media icons, when clicked will redirected to the Football Fever's social media pages.    
 
-- Map- At the bottom of the webapge a google map will display various markers that provide information to the visitor where games are being held.
+
 
 
 ## Differences to Design
 
 In the original design, the quiz navbar link would only take you to the section of the webpage which had a button of lets play, this was direct you to the quiz. In discussion with my mentor we realised this was not the most friendly user experience to click a navigation link and a button to reach the quiz. Therfore for a better and faster user experience the quiz links redirects the visitor stright to the quiz and I have also left the lets play button in the middle of the home web page just in case he visitor is scrolling and changes their mind to play the quiz.
 
+Google map was in place but this has been removed due to script issues.
 
 ### <strong>Features left to implement in the future</strong>
 
@@ -305,13 +291,15 @@ As a developer I encountered various problems throughout which I have resolved o
 
 <strong>Google map markers</strong>  when implementing Google map JS into my website I encountered various problems, intially I encountered error messages in the console which I rectified as it stated I need to provide my card details. This intially helped but the issue return trying to implement Google markers on to my map. A error message kept appearing in my console with the error refering to the markerclusterers code I had directly taken from the Google Api tutorial page. Even reviewing of Code institute lectures video again regarding maps implementation this did not help either. 
 
-I even researched and asked fellow students on slack but this did not resolve the issue, I was told to create a seperate map.js file to store my code which previously wasin index.html. I have now created a Map.js file which I resolved this issue but this was not to the solution. Finally on further reserach and examing various websites I have restructured by maps.js file, which is now working without issue.
+I even researched and asked fellow students on slack but this did not resolve the issue, I was told to create a seperate map.js file to store my code which previously wasin index.html. I have now created a Map.js file which I resolved this issue but this was not to the solution. It was intially working but after deploying my website the map has disappered leaving a error message in the console of function of intitmap, after much review and asking my fellow students this issue has not been resolved. Due to time constraint I have decided to discard the maps section from my website and in future will implement it.
 
                                 
 <strong>Colour scheme</strong> This project I struggled to implement a strong colour shceme. Because of  a football theme I wanted to implement colours that will related to the topic (green and white). In reality this was difficult just as finding the correct shade of green and not having too much green that overwhelmed the page. 
 After my second meeting with my mentor we discussed adding various shades of green to break up the page. This was implemented all across the website various shades have been added to break up the page. Even the colour for the quiz was kept to the same greens as the home page to keep the theme throughtout the website. Intially the quiz page was a bright blue and red but in discussion with my mentor realised this created seperation from the home page which was a completely diffrent colour. The colour scheme now keeps within the theme of football and is visually appealing. 
 
-<strong>Seperate files</strong>- intially attempted to seperate all my files css and js. The css files were causing issues for example, when the container element required CSS but was linked to the index.html and game.html this would cause problems. On seperation of the the css folders such as having a seperate folder for the game,style and end, this resolved the issue. I also intially had seperated by js files but have created a folder for them as this correct practice.
+<strong>Seperate files</strong>- intially attempted to seperate all my files css and js. The css files were causing issues for example, when the container element required CSS but was linked to the index.html and game.html this would cause problems. On seperation of the the css folders such as having a seperate folder for the game,style and end, this resolved the issue. I also intially had seperated by js files but have created a folder for them as this correct practice.  
+
+
 
 
 
@@ -379,7 +367,7 @@ When any nav link is pressed it take the vistor to that part of the website rath
     
 5)	I want to learn about the locations were the tournament games took place. 
     
-     Google map is be displayed at the bottom of the webpage, with markers of where the games have been held.
+    Provided in facts section.
 
 
 6)	We want visitors to the site to learn about the Euro's and leave it with more knowledge they had previously. 
@@ -404,92 +392,19 @@ The navbar quiz allows the visitor to access the quiz directly, if they visitor 
  5 question with only 4 options to choose is a simple but at the same challenging.
 
 
-    ![image-1](assets/readme-files/image-1.png)  
-
-
-
-    ![image-2](assets/readme-files/image-2.png)  
-    
-    ![image-3](assets/readme-files/image-5.png)
-
-
-
-    ![image-4](assets/readme-files/image-4.png)
-
-
-    ![image-5](assets/readme-files/image-3.png)
-
-    ![image-6](assets/readme-files/image-6.png)
-
-
-
-      ![image-7](assets/readme-files/image-7.png)
-
-      ![image-8](assets/readme-files/image-8.png)
-
-
-     ![image-9](assets/readme-files/image-2.png) 
-
-
-   ![image-10](assets/readme-files/image-9.png) 
-   ![image-11](assets/readme-files/image-10.png) 
-   ![image-12](assets/readme-files/image-11.png) 
-   ![image-13](assets/readme-files/image-12.png) 
-
-
-
-    ![image-14](assets/readme-files/image-13.png) 
-    ![image-15](assets/readme-files/image-14.png) 
-
 
 ### Code Validator
 
 The W3C Markup Validator was used to validate the HTML code and the W3C CSS Validator service was used to validate the CSS coded used.
 
-Results:  
 
-index.html 
-
-![code-1](assets/readme-files/code-1.png)
-
-services.html 
-
-![code-2](assets/readme-files/code-2.png)
-
-drivers.html
-
-![code-3](assets/readme-files/code-3.png)
-
-safety.html 
-
-![code-4](assets/readme-files/code-4.png)
-
-our-commitments.html
-
-![code-5](assets/readme-files/code-5.png)
-
-contact-us.html
-
-![code-6](assets/readme-files/code-6.png)  
-
-css 
-
-![code-7](assets/readme-files/code-7.png)  
 
 ### Lighthouse Auditing  
-I tested the performance of each page through google lighthouse but had issues with the testing and have added a screenshot of the results from fellow students. The reason was due to my internet connection in my area that adversely affected my lighthouse results. 
-My initial tests scores were in 80’s and 90’s except for the performance section which was well below 50. 
-When examining the lighthouse report further two of my biggest issues were the speed and the TBT (total blocking time). To resolve this, I spoke to my fellow students on slack who advised me to compress the size of my image as this may resolve issue and address why my website loaded slowly. I then used the website TinyJPG to put all my images through to reduce the file size to help the loading process. 
+I tested the performance of each page through google lighthouse but had issues with the testing, the reason was due to my internet connection in my area that adversely affected my lighthouse results. 
 
-My website was loading a lot faster, and I thought the issue had been resolved, further inspection on lighthouse my performance score only went up by a small amount. Other students who had tested my website had significantly higher scores in comparison to my own. It was not until my mentor meeting that we realised that my local internet connection was tested on Fast.com which highlighted it was considerably slower in comparison to my mentor's internet connection (who had a good lighthouse test result for my website). 
-Due to my slow internet connection, I cannot properly utilise lighthouse so therefore I have attached images of lighthouse test reports which have been provided by fellow students.
+I realised that my local internet connection was tested on Fast.com which highlighted it was considerably slower in comparison to my mentor's internet connection (who had a good lighthouse test result for my website). 
+Due to my slow internet connection, I cannot properly utilise lighthouse.
 
- ![test-1](assets/readme-files/test-1.png) 
- ![test-2](assets/readme-files/test-2.png) 
- ![test-3](assets/readme-files/test-3.png)
- ![test-4](assets/readme-files/test-4.png)
- ![test-5](assets/readme-files/test-5.png)
- ![test-6](assets/readme-files/test-6.png)
 
 
 ### <strong>Further Testing</strong>
@@ -503,11 +418,8 @@ I have also tested the responsiveness of the website on dev tools which has help
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. 
 It was through this testing that the following changes were made:
 
-•	Address the overflow issue which was causing the webpages to move while scrolling down. It was fellow student that informed me about unicorn revealer to work out where on my webpages I had overflow. 
 
-•	My images were loading too slowly and may be too big, I used tiny.JPG to address this issue as mentioned by a fellow student. 
-
-•	The make a booking button on the home page when pressed would transfer to contact us page. A fellow student suggested that when pressed the button should directly take the user the booking form rather then having to scroll down in the contact us page to get to the form. 
+• A fellow student noted the maps images had not appeared on the webiste and therefore this has been removed.
 
 
 # Deployment
