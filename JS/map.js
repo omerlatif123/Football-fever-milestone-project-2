@@ -49,7 +49,7 @@ var contents = [
     
 ];
 
-window.onload = function initMap() {
+function initMap() {
 
     var startPosition = locations[0];
     var centerPoint = {
