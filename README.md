@@ -308,9 +308,11 @@ As a developer I encountered various problems throughout which I have resolved o
 I even researched and asked fellow students on slack but this did not resolve the issue, I was told to create a seperate map.js file to store my code which previously wasin index.html. I have now created a Map.js file which I resolved this issue but this was not to the solution. Finally on further reserach and examing various websites I have restructured by maps.js file, which is now working without issue.
 
                                 
-<strong>Colour scheme</strong> This project I struggled to implement a strong colour shceme. Because of he theme of football I wanted to implement colours that will related to the topic (green and white). In relaity this was difficult just as finding the correct shade of green and not having too much green that it overwhelmed the page. After my second meeting with my mentor we discussed adding various shades of green to break the webiste down. This was implemented all across the website various shades have been added to break up the page. Even the colour for the quiz was kept to the same greens as the home page to keep the theme throughtout the website. Intially the quiz page was a bright blue and red but in discussion with my mentor realised this created seperation from the home page which was a completely diffrent colour. The colour scheme now keeps within the theme of football and is visually appealing. 
+<strong>Colour scheme</strong> This project I struggled to implement a strong colour shceme. Because of  a football theme I wanted to implement colours that will related to the topic (green and white). In reality this was difficult just as finding the correct shade of green and not having too much green that overwhelmed the page. 
+After my second meeting with my mentor we discussed adding various shades of green to break up the page. This was implemented all across the website various shades have been added to break up the page. Even the colour for the quiz was kept to the same greens as the home page to keep the theme throughtout the website. Intially the quiz page was a bright blue and red but in discussion with my mentor realised this created seperation from the home page which was a completely diffrent colour. The colour scheme now keeps within the theme of football and is visually appealing. 
 
-<strong>Seperate files</strong>
+<strong>Seperate files</strong>- intially attempted to seperate all my files css and js. The css files were causing issues for example, when the container element required CSS but was linked to the index.html and game.html this would cause problems. On seperation of the the css folders such as having a seperate folder for the game,style and end, this resolved the issue. I also intially had seperated by js files but have created a folder for them as this correct practice.
+
 
 
 # Technologies Used
@@ -319,7 +321,11 @@ I even researched and asked fellow students on slack but this did not resolve th
 
 •	HTML5
 
-•	CSS3
+•	CSS3 
+
+•	JS
+
+
 
 #### Additional Languages Used
 
@@ -333,10 +339,6 @@ Frameworks, Libraries & Programs Used
 •	[Pexels](Pexels.com) -Pexels was used to provide the high-quality free images in the webpage either the hero image or image sections part of the website.  
 
 •	[Unsplash](Unsplash.com) -was used to provide the high-quality free images in the webpage either the hero image or image sections part of the website.  
-
-•	[Freepik](Freepik.com) -Out of all the free images sights, freepik’s provided me with the best quality images which has been used for all the hero images across the site. 
-
-•	[Pixabay](Pixabay.com)  -Free image site that has been used for image section of the website.  
 
 •	[Google fonts](fonts.google.com) - Google fonts was used to import the fonts "Roboto" and Sans Serif" into the style.css file. These fonts were used throughout the project.
 
@@ -354,81 +356,87 @@ Frameworks, Libraries & Programs Used
 # Testing
 
 Testing user stories 
+   
 
-1.	I want to be able to navigate through the website quick and easily.
+1)	I want to be able to navigate through the website quick and easily. 
 
-    The website has a fixed navigation menu at the top of the webpage, which allows the user the convenience of not having to scroll up constantly to move to another page. The header options allow the user to select a heading to direct them to a new page. The Envirocabs logo when pressed takes the visitor to the Home Page. The Navbar is clearly shown in the header of the site and uses a burger icon for smaller screen sizes. 
+The website has a fixed navigation menu at the top of the webpage, which allows the user the convenience of not having to scroll up constantly to move to another page. The header options allow the user to select a heading to direct them to a new page.
 
-    Furthermore, in the footer on every page there is a make a booking button when pressed takes the visitor directly to the booking form in the contact us page. Both the social links and download app icons are in the footer, when pressed transfer the user to their web pages. Finally, there is a booking button on the home page hero-image and when selected takes you to directly to make a booking form. 
-    This feature was suggested by a fellow student on slack who stated they would prefer to press the make a booking button and be directly transferred to the form, rather then transferred to the contact us page and scroll down to the form. The website has taken into the consideration the needs of the user and is easy and quick to navigate through.
+The Navbar is clearly shown in the header of the site and uses a toggler icon for smaller screen sizes. 
+When any nav link is pressed it take the vistor to that part of the website rather then having to scroll down. This feature was suggested by my mentor who stated they would prefer to press a link and be transfered direcrtly then having to scroll down.Furtermore the quiz nav link would take the visitor to the part of the webpage where the quiz section was rather then being redirected to the quiz instantly. after discussion with my mentor this was amended.
+
+2)	I want to be able to access football facts and stats and learn more about the Euro's.  
+
+     The website has a table of the team playing in the euro and a description about them in the meet the teams sections. Furthermore the facts section is split into 3 sections which provide information about leading goal scorers, best palyers of the tournament in my opinion and which stadiums the matches were being held in. The location map also give interactive view on the maps of all the locations that matches are being held with the use of markers.
+
+3)	I want to be able to have fun by playing the quiz, the quiz should be short and simple. 
+    
+    The quiz is simple and easy to understand, on entry four options have been provided, if the answer is incorrect the answer will temporarly become red if its correct it will be green. The layout is basic witha score tally on the right hand side of the page and on the left side is a progress bar to inform the user on what question out of they 5 they are on. At the end of quiz you are given about to save score or play again. 
+    
+4)	I want to be able to follow the Football Fever on various media platforms.  
+     
+ The website footer has icons for Facebook, Snapchat, Twitter and Instagram. The visitor to the webpage must click on the icons to be taken to their websites. In the future  will implement the footer on the other pages, currently footer is causing issues on the other pages, will not sit in position at bottom of page.   
+    
+5)	I want to learn about the locations were the tournament games took place. 
+    
+     Google map is be displayed at the bottom of the webpage, with markers of where the games have been held.
+
+
+6)	We want visitors to the site to learn about the Euro's and leave it with more knowledge they had previously. 
+
+Instantly when entering the website the visitor is provided  a wealth football information. A table of the teams playing in the euro's is provided and further information is provided about them underneath in Meet the teams section. The facts section is split into three with information provided about the stadiums, highest goal scorers and best players (in my opinion). Enough information is provided to improve the vistors knowledge but not enough to make the lose interest by causing information overload.
+
+
+7)	we want visiotrs to test their overall knowledge of football by having a euro themed quiz.
+    
+    All 5 questions are euro related, the questions are about euros past and present. The visitor is challenged by the questions. Everytime the quiz is attmepted again the questions are randomised to keep the visitor guessing. 
+
+8)	We want visitors to have fun, ultimately it is a website they can enjoy in their down time and its for all ages.
+
+ The website is simple as possible, the colours are bright and appealling linked to the theme of a football pitch white and green. The website is very simple to navigate and the visitor doesn't have to even scroll just click on a nav link that will take them to that part of the page they require. 
+
+9)	We want the quiz to be simple to access and navigate. 
+
+The navbar quiz allows the visitor to access the quiz directly, if they visitor doesnt access the quiz through the quiz button the navbar is another option availble. when scrolling down the webapage a picture of a football pitch with a flashing title play the ultimate football quiz may tempt the user, therefore underneath the picture is a lets play button to direct them to the quiz.   
+
+10)	We dont want to make a long quiz as this may make the visitor lose interest. The quiz should be short and sweet to capitivate the user for long enough but also give them a challenge.  
+
+ 5 question with only 4 options to choose is a simple but at the same challenging.
+
 
     ![image-1](assets/readme-files/image-1.png)  
 
 
-2.	I want the process to book a cab to be simple as possible.
-
-    The Website Homepage has a button on the hero image that when selected takes the visitor to the booking form in the contact us page. 
-    Throughout the website every page’s footer has a button to make a booking (button disappears on smaller devices but the booking button is still available on the home screen hero image). The visitor can book directly through the webpage by filling out their details in the form and submitting it. The form has a simple layout and requires all sections to be filled. 
 
     ![image-2](assets/readme-files/image-2.png)  
     
     ![image-3](assets/readme-files/image-5.png)
 
-3.	I want to learn about the company and its ethos on their website.
 
-    On entering the Home page, the user is given some information with some icons and text about the company but not overwhelmed with information. The Home page features testimonials from previous customers about the company service. 
-
-    For further information about the company’s environmental ethos the visitor can click on our commitments heading. The page highlights the company’s commitment to the environment and its initiatives. Each section of the website provides information to the user about their area of interest. For example, the Services section provides both information and pictures of the cars Envirocabs uses. 
-    The website provides comprehensive information to the user with constant reassurance throughout about its ethos.
 
     ![image-4](assets/readme-files/image-4.png)
 
-4.	I want to be able to follow the company on various media platforms.
-
-    On every page the website footer will have follow us text with icons for Facebook, Snapchat, Twitter and Instagram. 
-    The visitor to the webpage must click on the icons to be taken to their websites. Even when reduced to smaller screen sizes the social links remain in the centre of the footer.
 
     ![image-5](assets/readme-files/image-3.png)
 
     ![image-6](assets/readme-files/image-6.png)
 
-5.	I want to learn about the safety procedures the company has in place during the pandemic.
 
-    The website has a whole section dedicated to safety and can be selected in the navigation bar. 
-    The Safety page highlights with icon and information that the vehicles are regularly cleaned, drivers wear a face mask along with customers, hand sanitiser is available to use, and safety screens are in every vehicle. 
-    The company’s commitment to customer safety is highlighted by promoting they have acquired an accreditation in hygiene in the section above the footer.
 
       ![image-7](assets/readme-files/image-7.png)
 
       ![image-8](assets/readme-files/image-8.png)
 
-6.	We want visitors to the site, to book on our website directly or download our app to book a cab.
-
-    The Website Homepage has a button on the hero image that when selected takes the visitor to the booking form. Furthermore, on every page the website footer has the option to book directly through the website with the make a booking button or to select the apple or android icons that will allow the customer to download our app. 
-    These sections disappear when reduce to smaller devices as visually website look unattractive, but the booking button remains on the home page hero-image.
 
      ![image-9](assets/readme-files/image-2.png) 
 
-7.	We want visitors to be aware our fleet of vehicles are 100% electric and there 0% emissions, want to target customers who want to reduce their carbon footprint and those wanting to be greener.
-    
-    On entering the Homepage, the visitor to the site is instantly given some information about Envirocabs. Icons and text provide information that the vehicles are electric and produce no emissions. Other headers such as services provide more in-depth information type of cabs Envirovcabs offer (standard 5-seater car, executive car, and 7-seater car), and other services such as removals (van) we offer but emphasising our fleet of vehicles are 100% electric and produce 0% emissions. Further our commitment section is a whole page dedicated to the companies practices and initiatives to become greener.
 
    ![image-10](assets/readme-files/image-9.png) 
    ![image-11](assets/readme-files/image-10.png) 
    ![image-12](assets/readme-files/image-11.png) 
    ![image-13](assets/readme-files/image-12.png) 
 
-8.	We want visitors to be presented with information that we are a green alternative to other companies.
 
-    This is highlighted throughout the website; on the home page it states Envirocab vehicles are electric, and some testimonials highlight that Envirocabs is a green alternative. The other page headings such as Services highlight all the vehicles are all 100% electric. The Our Commitments page is dedicated to the company’s green initiatives. Envirocabs highlights their green credentials throught. 
-
-9.	We want visitors to be aware of our social media presence, follow us on various media platform to expand our brand.
-    
-    On every page the website footer has follow us text with icons for Facebook, Snapchat, Twitter and Instagram. When visitor to the webpage clicks on the icons they are taken to their websites. Even on smaller devices the follow us section remains in the center of the footer.
-
-10.	We want visitors to be aware our community initiatives, this will be good PR for the company.
-    
-    For further information about the company’s initiatives the visitor can click on our commitments heading. The page highlights the company’s commitment to the environment through its plant a tree initiative. It will highlight Envirocabs commitment to work with and support local communities through environmental schemes. Furthermore, local communities will be educated on sustainable living and becoming greener. 
 
     ![image-14](assets/readme-files/image-13.png) 
     ![image-15](assets/readme-files/image-14.png) 
@@ -539,28 +547,33 @@ To make a clone of my project use the following steps:
                
                Pexels.com  
                Unsplash.com
-               Freepik.com    
-               Pixabay.com  
+               
 
 ### Code
 
 I consulted multiple sites to better understand code that I was trying to implement. For code that was copied and edited, I made sure to reference this within the code. The following websites were used the most often.
 
-•	W3Schools
+Google used extensively to help research the project, find solutions to any quries or issues I had and help find example codes to use in my own project.
 
-•	Bootstrap 
+Wikipedia- was used to find the information for my website, I searched through various football related information and trivia to implement into my webpage. 
+
+W3schools 
+Brian Design- This video was a big help to implemnt my quiz for me. The tutorial was simple and easy to follow and allowed me to adapt it to suit my own needs and style. It helped me to understand using JavaScript.
+Udemy course- The course allowed me to understand javascript better nad also had tutorials on developing a quiz and other JS related websites.
+
+Stackoverflow was used to help find solutions to the issues I had whilst building my project.
 
 
 ### Acknowledgements
 
 •	Code Institute for giving me the know how to create my own website.
 
-•	The Slack community/ Mini Feb 20201 team on slack for all the feedback and help given. Without the Slack community I may not have known about tools like unicorn revealer, which was mentioned by a team member. This helped solve my issue plus gave me a useful tool for the future. 
+•	The Slack community/ Mini Feb 20201 team on slack for all the feedback and help given.
 
-•	My mentor Seun for helping to guide me through my first project.
+•	My mentor Seun for helping to guide me through my first project and showing me example of great projects form other students such rebeccatracey and benpruden to name a few. Helped me improve my project and implement mark clusters into my maps which previosuly were causing issues.
 
 •	Friends and Family who have given feedback during the testing phase of my project.
-
+ 
 
 
 
